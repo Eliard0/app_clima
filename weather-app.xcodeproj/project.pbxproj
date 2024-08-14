@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E9A710F02C66E6C0002B7445 /* DailyForecastTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A710EF2C66E6C0002B7445 /* DailyForecastTableViewCell.swift */; };
 		E9B817242C60427D00781531 /* HourlyForecastCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B817232C60427C00781531 /* HourlyForecastCollectionViewCell.swift */; };
 		E9D910E02C16478A00C04381 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D910DF2C16478A00C04381 /* AppDelegate.swift */; };
 		E9D910E22C16478A00C04381 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D910E12C16478A00C04381 /* SceneDelegate.swift */; };
@@ -14,9 +15,11 @@
 		E9D910E92C16478B00C04381 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9D910E82C16478B00C04381 /* Assets.xcassets */; };
 		E9D910EC2C16478B00C04381 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E9D910EB2C16478B00C04381 /* Base */; };
 		E9DB5A272C6050E4003D01A4 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DB5A262C6050E4003D01A4 /* Color+Extensions.swift */; };
+		E9F5D98D2C6D3F420026BD37 /* UIVIew+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F5D98C2C6D3F410026BD37 /* UIVIew+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E9A710EF2C66E6C0002B7445 /* DailyForecastTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyForecastTableViewCell.swift; sourceTree = "<group>"; };
 		E9B817232C60427C00781531 /* HourlyForecastCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyForecastCollectionViewCell.swift; sourceTree = "<group>"; };
 		E9D910DC2C16478A00C04381 /* weather-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "weather-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9D910DF2C16478A00C04381 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +29,7 @@
 		E9D910EB2C16478B00C04381 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9D910ED2C16478B00C04381 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9DB5A262C6050E4003D01A4 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		E9F5D98C2C6D3F410026BD37 /* UIVIew+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIVIew+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				E9D910DF2C16478A00C04381 /* AppDelegate.swift */,
 				E9D910E12C16478A00C04381 /* SceneDelegate.swift */,
 				E9D910E32C16478A00C04381 /* ViewController.swift */,
+				E9A710EF2C66E6C0002B7445 /* DailyForecastTableViewCell.swift */,
+				E9F5D98C2C6D3F410026BD37 /* UIVIew+Extension.swift */,
 				E9B817232C60427C00781531 /* HourlyForecastCollectionViewCell.swift */,
 				E9DB5A262C6050E4003D01A4 /* Color+Extensions.swift */,
 				E9D910E82C16478B00C04381 /* Assets.xcassets */,
@@ -142,9 +148,11 @@
 			files = (
 				E9DB5A272C6050E4003D01A4 /* Color+Extensions.swift in Sources */,
 				E9D910E42C16478A00C04381 /* ViewController.swift in Sources */,
+				E9A710F02C66E6C0002B7445 /* DailyForecastTableViewCell.swift in Sources */,
 				E9D910E02C16478A00C04381 /* AppDelegate.swift in Sources */,
 				E9B817242C60427D00781531 /* HourlyForecastCollectionViewCell.swift in Sources */,
 				E9D910E22C16478A00C04381 /* SceneDelegate.swift in Sources */,
+				E9F5D98D2C6D3F420026BD37 /* UIVIew+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
